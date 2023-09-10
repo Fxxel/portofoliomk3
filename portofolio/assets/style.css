@@ -1,0 +1,207 @@
+body {
+  max-width: 100%;
+  height: 100px;
+  overflow-y: scroll; /* Tambahkan kemampuan untuk melakukan scrolling */
+}
+
+/* Sembunyikan scrollbar dari Chrome, Safari dan Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sembunyikan scrollbar untuk IE, Edge dan Firefox */
+body {
+  -ms-overflow-style: none; /* IE dan Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+* {
+  text-decoration: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+@import url(https://fonts.google.com/specimen/Rubik);
+@import url(https://fonts.google.com/specimen/Bebas+Neue);
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Poppins);
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.Container .navbar {
+  background-color: #145369;
+}
+
+.Container a span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+}
+
+.Container nav .collapse ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.Container nav .collapse ul li a:hover {
+  color: orange;
+  transition: 0.4s;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Content perkenalan */
+
+.content {
+  height: max-content;
+  padding-bottom: 50px;
+}
+
+
+.introduction {
+  max-width: 100%;
+  display: flex;
+  background-color: rgb(40, 44, 47);
+}
+
+.introduction .myself {
+  height: auto;
+  padding-bottom: 80px;
+  width: 99%;
+  padding-top: 90px;
+  margin: auto;
+}
+
+.myself img {
+  width: 30vmax;
+  height: auto;
+  border-radius: 100%
+}
+
+.myself h1 {
+  font-size: 3vmax;
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.myself h2 {
+  font-size: 2vmax;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+
+/* Tentang aku */
+
+.about {
+  height: auto;
+  max-width: 100%;
+}
+
+.me h3 {
+  padding-top: 100px;
+  font-size: 3vmax;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.me .description {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  width: 70%;
+  padding-bottom: 80px;
+}
+
+.me .description h4 {
+  font-size: 2vmax;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Skills Saya */
+
+.about .skillsme {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.skillsme .skill {
+  max-width: 70%;
+  height: auto;
+  padding-bottom: 80px;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 2px solid silver;
+}
+
+.skillsme .skill h5 {
+  font-size: 6vmin;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  color: black;
+  
+}
+
+.kemampuan {
+  max-width: 80%;
+  display: grid;
+  margin: auto;
+}
+
+.kemampuan h4 {
+  margin-top: 20px;
+  font-size: 2vmax;
+}
+
+/* My team */
+
+.team {
+  height: auto;
+  padding-bottom: 100px;
+  padding-top: 120px;
+  width: 70%;
+  display: grid;
+  margin: auto;
+  
+}
+
+.team h4 {
+  color: black;
+  font-size: 6vmin;
+  font-family: "Monserrat", sans-serif;
+  padding-bottom: 50px;
+}
+
+.team .container {
+  margin-top: 50px;
+}
+
+.team .row .col-sm  {
+  padding-bottom: 50px;
+}
+
+/* My project */
+
+.project {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  background-color: #cce7e8;
+}
+
+.project h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Rubik";
+}
